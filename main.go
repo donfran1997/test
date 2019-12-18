@@ -6,8 +6,7 @@ package main
 void echo() {
         printf("RWAR");
 }
-  */
-
+*/
 import "C"
 
 func main() {
