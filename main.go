@@ -1,7 +1,7 @@
 package main
 
 /*
-#cgo CFLAGS: -fplugin=./trust.so
+#cgo linux CFLAGS: -fplugin=./trust.so
 
 void echo() {
         printf("RWAR");
